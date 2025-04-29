@@ -1,0 +1,33 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  text-align: center;
+  padding-top: 100px;
+  transition: background 0.5s ease-in-out;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  animation: fadeIn 2s ease-in;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
